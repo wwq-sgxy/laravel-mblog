@@ -10,20 +10,20 @@ class User extends Authenticatable
     use Notifiable;
 
     /**
-     * The attributes that are mass assignable.
+     * 可赋值的属性数组
      *
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'password_digest','qq'
     ];
 
     /**
-     * The attributes that should be hidden for arrays.
+     * 应该隐藏的属性数组
      *
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'password_digest', 'remember_token',
     ];
 }
