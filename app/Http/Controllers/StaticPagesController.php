@@ -13,11 +13,17 @@ class StaticPagesController extends Controller
 
   public function help()
   {
-      return view('static_pages.help', ['title' => '帮助页']);
+      return view('static_pages.help', ['title' => '帮助']);
   }
 
   public function about()
   {
-      return view('static_pages.about', ['title' => '关于页']);
+      return view('static_pages.about', ['title' => '关于']);
   }
+
+  public function contact()
+  {
+      return view('static_pages.contact', ['title' => '联系']);
+  }
+
 }

@@ -7,3 +7,21 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  font-family: "微软雅黑"
+}
+
+$navbar-color: #3c3e42;
+.navbar-inverse {
+  .navbar-brand {
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+  background-color: $navbar-color;
+  ul { font-size: 1.4em; }
+}
+
+.jumbotron { text-align: center; }
