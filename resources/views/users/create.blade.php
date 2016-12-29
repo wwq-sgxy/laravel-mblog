@@ -31,15 +31,14 @@
         <div class="form-group">
           <label for="user_pass" class="sr-only">密码</label>
           <input class="form-control" type="password" name="password" id="user_pass"
-            placeholder="请输入密码" value="{{ old('p1') }}"/>
+            placeholder="请输入密码" value="{{ old('password') }}"/>
         </div>
         <div class="form-group">
           <label for="pass_confirm" class="sr-only">密码确认</label>
           <input class="form-control" type="password" name="password_confirmation"
-            id="pass_confirm" placeholder="请再次输入密码" value="{{ old('p2') }}"/>
+            id="pass_confirm" placeholder="请再次输入密码" value="{{ old('password_confirmation') }}"/>
          </div>
-        <input type="submit" name="commit" value="创建账号"
-          class="btn btn-primary btn-block" />
+        <input type="submit" name="commit" value="创建账号" class="btn btn-primary btn-block" />
       </form>
     </div>
   </div>

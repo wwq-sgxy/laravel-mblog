@@ -2,9 +2,9 @@
 window._ = require('lodash');
 
 /**
- * We'll load jQuery and the Bootstrap jQuery plugin which provides support
- * for JavaScript based Bootstrap features such as modals and tabs. This
- * code may be modified to fit the specific needs of your application.
+ * 要加载 jQuery 和 Bootstrap jQuery 插件，它们提供基于 JavaScript 的
+ * Bootstrap 特性支持，例如模式框和页签管理。可以修改此代码以满足应用程序
+ * 的特殊需要
  */
 
 window.$ = window.jQuery = require('jquery');
