@@ -25,3 +25,11 @@ $navbar-color: #3c3e42;
 }
 
 .jumbotron { text-align: center; }
+
+.panel {
+  margin: 50px auto;
+  width: 55%;
+  .panel-heading {
+    font-size: 1.2em;
+  }
+}

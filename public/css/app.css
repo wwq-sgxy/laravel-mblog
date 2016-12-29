@@ -7711,4 +7711,13 @@ body {
   text-align: center;
 }
 
+.panel {
+  margin: 50px auto;
+  width: 55%;
+}
+
+.panel .panel-heading {
+  font-size: 1.2em;
+}
+
 /*# sourceMappingURL=app.css.map */
