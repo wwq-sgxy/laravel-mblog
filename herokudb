@@ -1,0 +1,4 @@
+postgresql-vertical-68320
+=== php-teaching-case Config Vars
+APP_KEY:      base64:pTT0F219PcwxjrtZ2WhvM1ChflfkYJJ1RjQLHDDQnl4=
+DATABASE_URL: postgres://yffzymkgwmpuld:7acd0976f682ab9c3f9b810692315d08f3a8c30ef12c5c0f92b41e6bf4a5da6f@ec2-54-225-240-168.compute-1.amazonaws.com:5432/d5h99ht67k01cq
