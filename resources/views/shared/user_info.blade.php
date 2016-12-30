@@ -4,4 +4,6 @@
       class="{{ $shape }}" width="{{ $size }}" />
   </a>
 </p>
+@if ($name)
 <h1 class="text-center">{{ $user->name }}</h1>
+@endif

@@ -41,7 +41,11 @@ class User extends Authenticatable
   //qq号修改器
   public function setQqAttribute($qq)
   {
+    if ($qq == 'noset') {
       $this->attributes['qq'] = $this->get_qqnumber($this->attributes['email']);
+    } else {
+      $this->attributes['qq'] = $qq;
+    }
   }
 
   //从qq邮箱提取qq号
